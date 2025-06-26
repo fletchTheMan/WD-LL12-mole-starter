@@ -37,6 +37,38 @@ body {
   top: 0;
 }
 
+.hole.up .mole {
+  top: 0;
+}
+/* Eyes */
+.mole-eye {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  border: 2px solid #333;
+}
+.left-eye {
+  left: 28%;
+}
+.right-eye {
+  right: 28%;
+}
+/* Nose */
+.mole-nose {
+  width: 16px;
+  height: 16px;
+  background: #ffb6b6;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #333;
+}
+
 button {
   padding: 10px 20px;
   font-size: 16px;
